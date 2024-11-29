@@ -1,0 +1,16 @@
+{
+    "name": "TestNew/bot.php",
+    "description": "A simple PHP application for deployment on Heroku",
+    "require": {
+        "php": "^8.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:8000 -t public"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
